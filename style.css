@@ -1,0 +1,52 @@
+h1 {
+	color: #33ccff;
+	margin-bottom: 10px;
+	font-family: 'open sans',sans-serif;
+
+}
+img {
+    max-width: 100%;
+    height: 50%;
+}
+
+.container{
+	font-family: 'Roboto', sans-serif;
+	color:#0040ff
+   
+
+}
+
+
+ul{
+	font-size:15px;
+	font-family: 'Indie Flower', cursive;
+	color:#990099
+}
+
+ul{font-family: 'Indie Flower', cursive;
+}
+
+
+.things{
+	color:#cc33ff
+
+}
+
+
+#navbar { 
+	background: purple         
+}
+
+.image-containers {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+article{
+	background-color: white;
+}
+
+
+
+
