@@ -1,0 +1,32 @@
+body{
+	background-image : url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx5A0Qw_343wKKx2crkpV1n9kSWe5-ObiUfUkMz7miwVJK-Mz-');
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+ } 
+
+ h3 {
+ 	color:#ff0000;
+
+
+#timer{
+	position: fixed;
+	top:20px;
+	right:20px;
+	font-size: 24px;
+	border-radius: 50%;
+	height:40;
+	width:40px;
+	border:solid 1px ;
+	text-align:center;
+	line-height: 37px;
+}
+
+
+
+

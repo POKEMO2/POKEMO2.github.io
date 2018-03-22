@@ -1,0 +1,39 @@
+body{
+	background-image : url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/76/7457922892b55cf.jpg');
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+ } 
+
+input {
+	width: 50%;
+}
+
+textarea {
+	height: 20px;
+	width: 50%;
+}
+
+button {
+	.btn 
+  background: #cf5919;
+  background-image: -webkit-linear-gradient(top, #cf5919, #73551d);
+  background-image: -moz-linear-gradient(top, #cf5919, #73551d);
+  background-image: -ms-linear-gradient(top, #cf5919, #73551d);
+  background-image: -o-linear-gradient(top, #cf5919, #73551d);
+  background-image: linear-gradient(to bottom, #cf5919, #73551d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #dfebdf;
+  font-size: 27px;
+  padding: 12px 13px 10px 15px;
+  text-decoration: none;
+
+}

@@ -1,0 +1,21 @@
+body{
+	background-image : url('https://hipermediaciones.files.wordpress.com/2016/08/aakinnj.png');
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+ } 
+
+
+
+ a {
+ 	color:white;
+ }
+
+
+
+ 
