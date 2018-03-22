@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="gif.html">
+	<link rel="stylesheet"  href="gif.css">
+</head>
+<body>
+   
+
+	<input id="input"  type="text">
+	<br>
+	<button id="button"> Generate GIF </button>
+	<br>
+	<img id ="img">
+</body>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+
+	const input = document.getElementById('input')
+	const btn = document.getElementById('button')
+    const gif = document.getElementById('img')
+
+
+	btn.onclick = () => {
+		gif.src = 'loader.gif2.gif'
+		axios.get(`https://api.giphy.com/v1/gifs/random?api_key=jkPYJyV7gDMMCgd56t1RDjwChAN3UC5k&tag=tag=${tag.value}`)
+	.then(result => {
+		console.log(result)
+		gif. src = result.data.data.image_url
+	})
+}
+
+</script>
+</html>

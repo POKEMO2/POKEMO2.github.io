@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catch the button !</title>
+	<style>
+	#running-btn{
+		height: 100px;
+		width: 100px;
+		background: skyblue;
+		position: fixed;
+		transition: 0.3s;
+
+	}
+</style>
+</head>
+<body>
+	<h4>you have clicked <span id="count">0</span>times </h4>
+	<div id="running-btn"></div>
+
+</body>
+
+ <script >
+
+ 	let counter = 0
+
+	// function greet(name,age){
+	// 	alert('hello'+name '.I am'+age)
+	// 		)
+	// }
+
+	// greet('nam',17)
+
+	const btn = document.getElementById('running-btn')
+	const count = document.getElementById('count') 
+	const colors = ['red','blue']
+
+	btn.onclick = function(){
+		// alert('you clicked me ')
+		counter++
+		// console.log(counter) 
+		count.innerHTML = counter
+		btn.style.background = colors [Math.floor(Math.random()*1)]
+	}
+
+	btn.onmouseover = function() {
+
+	console.log('you are on me ')
+}
+
+ btn.onmouseover = function(){
+	console.log('you are on me')
+	btn.style.top = Math.random()*500 + 'px'
+	btn.style.left = Math.random() * 500 + 'px'
+}
+</script>
+
+</html>

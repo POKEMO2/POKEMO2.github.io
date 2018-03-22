@@ -1,0 +1,40 @@
+body{
+	background-image: url('https://wallpaperclicker.com/storage/wallpaper/paint-color-splash-background-wallpaper-90983296.jpg'); 
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+ } 
+
+
+
+ input{
+ 	background-color: #ccd9ff;
+ 	color: #e600e6;
+ 	width:50%;
+ 	height:20px;
+ }
+
+
+ #button{
+  background: #13adaa;
+  background-image: -webkit-linear-gradient(top, #13adaa, #6821a6);
+  background-image: -moz-linear-gradient(top, #13adaa, #6821a6);
+  background-image: -ms-linear-gradient(top, #13adaa, #6821a6);
+  background-image: -o-linear-gradient(top, #13adaa, #6821a6);
+  background-image: linear-gradient(to bottom, #13adaa, #6821a6);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ff85ff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+ 
