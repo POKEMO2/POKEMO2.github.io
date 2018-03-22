@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Message.html</title>
+	<link rel="stylesheet" href="message.css">
+</head>
+<body>
+
+ <img id="image" />
+
+<h3 id="message"></h3>
+
+
+<div id="timer">20div>
+
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+<script>
+
+	let counter = 20
+
+	const messageContainer = document.getElementById('message')
+	const imageContainer=document.getElementById('image')
+	const timer = document.getElementById('timer')
+
+	const url = new URL(window.location.href)
+	const messageContent =url.searchParams.get('msg')
+	const imageUrl = url.searchParams.get ('img')
+	const id = url.searchParams.get('id')
+	// console.log(messageContent)
+	// console.log(imageUrl)
+
+// history.pushState('','','/disappearing-message/form.html')
+
+	messageContainer.innerHTML = messageContent
+	imageContainer.src= imageUrl
+
+	function countdown() {
+		counter-- 
+		timer.innerHTML = counter
+
+		if (counter ==0){
+           axios.post(`https://api.rebrandly.com/v1/links/${id}`,{
+	    	apikey:'b69c1bb2a69348a1a6cdc025a66cd471', 
+	    	title:'deleted  ',
+	    	destination: window.location.origin + '/disappearing-message/404.html'
+	    })
+        .then(() => {
+
+      	window.location.replace('/disappearing-message/404.html')
+         })
+			
+	   }
+	}
+
+	setInterval (countdown, 1000)
+
+</script>
+
+
+
+</html>

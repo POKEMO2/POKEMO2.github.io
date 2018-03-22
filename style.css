@@ -1,52 +1,39 @@
-h1 {
-	color: #33ccff;
-	margin-bottom: 10px;
-	font-family: 'open sans',sans-serif;
+body{
+	background-image : url('https://png.pngtree.com/thumb_back/fw800/back_pic/03/51/76/7457922892b55cf.jpg');
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+ } 
 
-}
-img {
-    max-width: 100%;
-    height: 50%;
-}
-
-.container{
-	font-family: 'Roboto', sans-serif;
-	color:#0040ff
-   
-
+input {
+	width: 50%;
 }
 
-
-ul{
-	font-size:15px;
-	font-family: 'Indie Flower', cursive;
-	color:#990099
+textarea {
+	height: 20px;
+	width: 50%;
 }
 
-ul{font-family: 'Indie Flower', cursive;
+button {
+	.btn 
+  background: #cf5919;
+  background-image: -webkit-linear-gradient(top, #cf5919, #73551d);
+  background-image: -moz-linear-gradient(top, #cf5919, #73551d);
+  background-image: -ms-linear-gradient(top, #cf5919, #73551d);
+  background-image: -o-linear-gradient(top, #cf5919, #73551d);
+  background-image: linear-gradient(to bottom, #cf5919, #73551d);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #dfebdf;
+  font-size: 27px;
+  padding: 12px 13px 10px 15px;
+  text-decoration: none;
+
 }
-
-
-.things{
-	color:#cc33ff
-
-}
-
-
-#navbar { 
-	background: purple         
-}
-
-.image-containers {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
-article{
-	background-color: white;
-}
-
-
-
-
