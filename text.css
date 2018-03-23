@@ -1,0 +1,25 @@
+h1{color:red;
+
+}
+
+body{
+	background-image: url('https://images5.alphacoders.com/432/432931.jpg'); 
+    background-size:cover;
+    display:flex;
+    justify-content: center;
+    align-items: center ; 
+    flex-direction :column ;
+    height :100vh ;
+    color:white;
+    font-size: 30px;
+    position:0px;
+    margin:30px;
+    padding:40px;
+    top:10px;
+    right:0px;
+    left:10px    
+    right:10px;
+    bottom:10px;
+
+
+   
